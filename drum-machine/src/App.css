@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  margin: 3px;
+  background-color: rgb(173, 168, 161);
+  border: solid 1px black;
+  border: 1px solid rgb(209, 97, 97);
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: monospace, Century Gothic;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25vh;
+}
+
+img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#display {
+  display: flex;
+  margin-top: 10px;
+}
